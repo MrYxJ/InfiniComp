@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.log
+*.jsonl
+!requirements.txt
+.DS_Store
+Thumbs.db
+metrics/
+excute_logs/
+logs/

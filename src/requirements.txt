@@ -1,0 +1,27 @@
+# InfiniComp (src/) + LongBench 评测所需依赖
+# 安装：pip install -r src/requirements.txt
+
+# --- 模型推理 ---
+torch
+transformers
+accelerate
+
+# --- 数据与检索 ---
+datasets
+tiktoken
+numpy
+
+# --- 注意力分析与可视化（thoughts.py 顶层依赖，缺一不可）---
+matplotlib
+seaborn
+scipy
+
+# --- 日志与进度 ---
+loguru
+tqdm
+
+# --- LongBench 打分（metrics/LongBench/eval.py）---
+rouge
+rouge_score
+jieba
+fuzzywuzzy
