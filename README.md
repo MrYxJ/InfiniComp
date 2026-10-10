@@ -27,7 +27,7 @@ Complexity is `O(mN)` (m chunks over N tokens) versus `O(N² + NM)` for full-KV 
 
 ### Needle-in-a-Haystack up to 2M tokens (Qwen2.5-1.5B-Instruct)
 
-| FullKV | InfiniComp | InfiniComp (full 2M sweep) |
+| FullKV | InfiniComp (full 2M sweep) |
 |---|---|
 | ![FullKV](figures/nih_fullkv_1p5b.png) | ![InfiniComp](figures/nih_infinicomp_1p5b.png) |
 
